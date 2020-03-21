@@ -1,12 +1,16 @@
 {
-    "name": "erlangparasu/laravel-debugbar-vscode",
-    "description": "laravel-debugbar plugin that provide buttons to open vscode",
-    "keywords": ["laravel", "debugbar", "vscode"],
+    "name": "raveren/laravel-debugbar-phpstorm",
+    "description": "laravel-debugbar plugin that provides buttons to open files in phpstorm (remote call plugin required)",
+    "keywords": ["laravel", "debugbar", "phpstorm"],
     "license": "MIT",
     "authors": [
         {
             "name": "Erlang Parasu",
             "email": "erlangparasu@gmail.com"
+        }, 
+        {
+            "name": "raveren",
+            "email": "raveren@gmail.com"
         }
     ],
     "require": {

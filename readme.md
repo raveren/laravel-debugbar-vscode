@@ -1,12 +1,12 @@
-# laravel-debugbar-vscode
+# laravel-debugbar-phpstorm
 
 Plugin **laravel-debugbar** that provide **button** to open **vscode**
 
-This package code is based on https://github.com/barryvdh/laravel-debugbar
+This package code is based on https://github.com/barryvdh/laravel-debugbar and https://github.com/erlangp/laravel-debugbar-vscode
 
 ## How to use
 
-Move mouse pointer to text that contains file path, then the button will appear. Click to open the path in vscode :D
+Move mouse pointer to text that contains file path, then the button will appear. Click to open the path in phpstorm :D
 
 ![Screenshot 1](screenshots/laravel-debugbar-vscode.screnshot-1.png)
 ![Screenshot 2](screenshots/laravel-debugbar-vscode.screnshot-2.png)
@@ -16,7 +16,7 @@ Move mouse pointer to text that contains file path, then the button will appear.
 Require this package with composer. It is recommended to only require the package for development.
 
 ```shell
-composer require erlangparasu/laravel-debugbar-vscode --dev
+composer require  raveren/laravel-debugbar-phpstorm  --dev
 ```
 
 ### Laravel 5.5+:
