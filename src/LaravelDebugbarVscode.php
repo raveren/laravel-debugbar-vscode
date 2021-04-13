@@ -64,7 +64,8 @@ class LaravelDebugbarVscode extends ServiceProvider
      */
     public function modifyResponse(Request $request, Response $response)
     {
-        if (!$this->app->make(LaravelDebugbar::class)->isEnabled()) {
+       if (! class_exists('\Barryvdh\Debugbar\LaravelDebugbar')
+            || ! $this->app->make('\Barryvdh\Debugbar\LaravelDebugbar')->isEnabled()) {
             return $response;
         }
 
