@@ -64,6 +64,10 @@ class LaravelDebugbarVscode extends ServiceProvider
      */
     public function modifyResponse(Request $request, Response $response)
     {
+        if (!$this->app->make(LaravelDebugbar::class)->isEnabled()) {
+            return $response;
+        }
+
         try {
             $header = $request->header('Accept');
             if (strpos($header, 'html') !== false) {
