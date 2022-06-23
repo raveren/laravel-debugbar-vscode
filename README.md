@@ -14,7 +14,7 @@ composer require raveren/laravel-debugbar-phpstorm  --dev
 This plugin reuses your [Ignition settings](https://flareapp.io/docs/ignition-for-laravel/configuration#remote-development-server-support) `IGNITION_LOCAL_SITES_PATH` and `IGNITION_REMOTE_SITES_PATH` in your `.env` file. E.g.
 
 ```apacheconf
-IGNITION_LOCAL_SITES_PATH=/Users/<your username>/work/<project dir>
+IGNITION_LOCAL_SITES_PATH=<project root dir>
 IGNITION_REMOTE_SITES_PATH=/home/vagrant/<project dir>
 ```
 
